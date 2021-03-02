@@ -1736,6 +1736,7 @@ public class Settings implements net.ess3.api.ISettings {
     public boolean isBanFinalWarning() {
         return config.getBoolean("ban-on-final-warning", true);
     }
+    
     @Override
     public boolean isRespawnAtBed() {
         return config.getBoolean("respawn-at-home-bed", true);
